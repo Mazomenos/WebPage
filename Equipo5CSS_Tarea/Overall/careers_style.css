@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+header {
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border: #D9D9D9 1px solid;
+}
+
+header img {
+  width: 103px;
+}
+
+.title {
+  position: absolute;
+  width: 224px;
+  height: 36px;
+  left: 128px;
+  top: 38px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #F14764;
+  text-align: left;
+  margin: auto 0;
+}
+
+header nav {
+  display: flex;
+  margin: auto 30px auto auto;
+  text-align: center;
+}
+
+header nav a {
+  font-size: 24px;
+  list-style: none;
+  margin: auto 20px auto 20px;
+  color: #000000;
+}
+
+header nav span {
+  font-size: 24px;
+  text-decoration: underline;
+  list-style: none;
+  margin: auto 20px auto 20px;
+  color: #F14764;
+}
+
+img.banner {
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#customers {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  border-collapse: collapse;
+  width: 100%;
+  column-width: 100;
+
+}
+
+table {
+  text-align: center;
+}
+
+#customers td,
+#customers th {
+
+  padding: 8px;
+  border: none;
+}
+
+#customers tr:nth-child(2n+3) {
+  background-color: #f2f2f2;
+  border-bottom: 2px #F14764;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #F14764;
+  color: white;
+  border-bottom: none;
+}
+
+#customers tr {
+  border: none;
+
+}
+
+aside {
+  text-align: justify;
+  outline: black 2px solid;
+  padding: 50px;
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+}
+
+h2 {
+  color: #F14764;
+  text-align: left;
+  font-family: 'Roboto';
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h5 {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+}
+
+section {
+  padding: 0 150px 50px 150px;
+}
+
+footer {
+  background-color: #D9D9D9;
+  padding: 10px;
+}
+
+aside img{
+  border:#F14764 4px solid;
+}
+
+.qualification-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  column-span: all;
+  text-align: left;
+
+}
+
+.button {
+  border-radius: 11px;
+  padding: 10px;
+  width: 100%;
+}
